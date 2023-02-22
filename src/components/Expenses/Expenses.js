@@ -12,6 +12,7 @@ const Expenses = (props) => {
           date={items.date}
           location={items.LocationOfExpenditure}
           id={items.id}
+          key={items.id}
         />
       ))}
     </Card>
