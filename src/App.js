@@ -1,6 +1,5 @@
 import React from "react";
 import Expenses from "./components/Expenses/Expenses";
-//import ExpenseItem from "./components/ExpenseItem";
 const App = () => {
   const expenses = [
     {
